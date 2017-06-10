@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.dell.mediaplayer.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="88dp"
+        android:orientation="horizontal"
+        android:background="#FF6F00">
+
+        <SearchView
+            android:id="@+id/seach_view"
+            android:layout_width="wrap_content"
+            android:layout_height="88dp">
+        </SearchView>
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="88dp"
+            android:background="@android:color/darker_gray"></View>
+
+        <TextView
+            android:id="@+id/music_player"
+            android:layout_width="250dp"
+            android:layout_height="88dp"
+            android:text="Music Player"
+            android:textSize="32sp"
+            android:textStyle="normal"
+            android:textColor="#FFFFFF"
+            android:padding="20dp" />
+
+        <ImageView
+            android:id="@+id/online_image_view"
+            android:layout_width="match_parent"
+            android:layout_height="88dp"
+            android:src="@drawable/onlinemusic"
+            />
+
+    </LinearLayout>
+
+
+    <ImageView
+        android:id="@+id/nowplaying_image_view"
+        style="@style/ImageStyle"
+        android:src="@drawable/musicplayer"/>
+
+    <TextView
+        android:id="@+id/artists_text_view"
+        style="@style/CategoryStyle"
+        android:text="ARTISTS"
+        android:textSize="32sp"
+        android:background="#C2185B"
+        android:fontFamily="casual"/>
+
+    <TextView
+        android:id="@+id/albums_text_view"
+        style="@style/CategoryStyle"
+        android:text="ALBUMS"
+        android:textSize="32sp"
+        android:background="#00BFA5"
+        android:fontFamily="casual"/>
+
+    <TextView
+        android:id="@+id/songs_text_view"
+        style="@style/CategoryStyle"
+        android:text="SONGS"
+        android:textSize="32sp"
+        android:background="#C62828"
+        android:fontFamily="casual"/>
+
+    <TextView
+        android:id="@+id/playlists_text_view"
+        style="@style/CategoryStyle"
+        android:text="PLAYLISTS"
+        android:textSize="32sp"
+        android:background="#8E24AA"
+        android:fontFamily="casual"/>
+
+</LinearLayout>
+

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_now_playing"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:orientation="vertical"
+    tools:context="com.example.dell.mediaplayer.NowPlayingActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="In this activity,currently playing media is showed.Whatever media running on app will be shown in this activity."
+        android:layout_marginBottom="32dp"
+        android:textSize="24sp"
+        android:textStyle="italic"
+        android:background="#AB47BC"
+        android:textColor="#ffffff"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="88dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="98dp"
+            android:layout_height="88dp"
+            android:src="@drawable/song" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="88dp"
+            android:text="Viah-Maninder Buttar"
+            android:textSize="32sp"
+            android:textColor="#000000"/>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

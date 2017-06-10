@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_artists"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:orientation="vertical"
+    tools:context="com.example.dell.mediaplayer.ArtistsActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="In this activity,list of Artists is showed.Names of all Artists will be shown in this activity."
+        android:layout_marginBottom="32dp"
+        android:textSize="24sp"
+        android:textStyle="italic"
+        android:background="#AB47BC"
+        android:textColor="#ffffff"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:text="1.  Aarsh Benipal"
+        android:textSize="32sp"
+        android:textColor="#000000"
+        android:fontFamily="casual"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:text="2.  Akhil"
+        android:textSize="32sp"
+        android:textColor="#000000"
+        android:fontFamily="casual"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:text="3.  Ammy Virk"
+        android:textSize="32sp"
+        android:textColor="#000000"
+        android:fontFamily="casual"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:text="4.  Amrit Maan"
+        android:textSize="32sp"
+        android:textColor="#000000"
+        android:fontFamily="casual"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:text="5.  Mankirat Aulakh"
+        android:textSize="32sp"
+        android:textColor="#000000"
+        android:fontFamily="casual"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:text="6.  Prabh Gill"
+        android:textSize="32sp"
+        android:textColor="#000000"
+        android:fontFamily="casual"/>
+
+</LinearLayout>
